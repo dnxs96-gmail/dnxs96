@@ -1,8 +1,5 @@
 /**
-*- Telegram交流群：https://t.me/AM_CLUBS
-*- YouTube频道：https://youtube.com/@AM_CLUB
 *- VLESS订阅地址：https://worker.amcloud.filegear-sg.me/866853eb-5293-4f09-bf00-e13eb237c655
-*- Github仓库地址：https://github.com/ansoncloud8
 **/
 
 // @ts-ignore
@@ -10,7 +7,7 @@ import { connect } from 'cloudflare:sockets';
 
 // How to generate your own UUID:
 // [Windows] Press "Win + R", input cmd and run:  Powershell -NoExit -Command "[guid]::NewGuid()"
-let userID = '866853eb-5293-4f09-bf00-e13eb237c655';
+let userID = 'cce1bf7e-5983-4912-9884-e337c58bb38d';
 
 const proxyIPs = ['cdn.xn--b6gac.eu.org', 'cdn-all.xn--b6gac.eu.org', 'workers.cloudflare.cyou'];
 
@@ -972,13 +969,10 @@ function getVLESSConfig(userIDs, hostName) {
 		const vlessSec = 'vless://' + userID + '@' + proxyIP + commonUrlPart;
 		return `################################################################
 telegram 交流群 技术大佬~在线交流!
-t.me/AM_CLUBS
 ---------------------------------------------------------------
 github 项目地址 点击Star!Star!Star!!!
-https://github.com/ansoncloud8/am-tunnel
 ---------------------------------------------------------------
 订阅YouTube频道,更多技术分享
-https://youtube.com/@AM_CLUB
 ################################################################
 
 v2ray default ip
